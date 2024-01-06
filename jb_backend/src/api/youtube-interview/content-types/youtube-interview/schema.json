@@ -1,0 +1,23 @@
+{
+  "kind": "collectionType",
+  "collectionName": "youtube_interviews",
+  "info": {
+    "singularName": "youtube-interview",
+    "pluralName": "youtube-interviews",
+    "displayName": "YoutubeInterview"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "YoutubeTitle": {
+      "type": "string",
+      "required": true
+    },
+    "YoutubeSrc": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

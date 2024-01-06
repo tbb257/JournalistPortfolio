@@ -1,0 +1,26 @@
+.AboutMe{
+    background: black;
+    color: white;
+    padding: 50px;
+    margin-left: 150px;
+
+}
+
+.AboutMeText{
+    text-align: left;
+    padding:20px;
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+
+.Logo{
+    height:150px;
+    margin-left: 40px;
+    border-radius: 10px;
+    margin-bottom: 50px;
+    cursor: pointer;
+}
+
+.Logo:hover{
+    transform:scale(1.05)
+}

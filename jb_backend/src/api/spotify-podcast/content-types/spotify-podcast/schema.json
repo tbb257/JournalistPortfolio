@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "spotify_podcasts",
+  "info": {
+    "singularName": "spotify-podcast",
+    "pluralName": "spotify-podcasts",
+    "displayName": "SpotifyPodcast",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "EpisodeTitle": {
+      "type": "string",
+      "required": true
+    },
+    "Src_Link": {
+      "type": "string",
+      "required": true
+    },
+    "SpotifySeries": {
+      "type": "string"
+    }
+  }
+}

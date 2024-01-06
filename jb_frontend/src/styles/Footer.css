@@ -1,0 +1,18 @@
+.Contact{
+    background-image:url("../images/Newspaper.jpg");
+    overflow: auto;
+    cursor: pointer
+}
+
+.ContactHeader{
+    border-radius: 6px;
+    background: rgb(0 0 0 / 50%);
+    color: white;
+    margin-left: 800px;
+    width: 25%;
+    padding: 10px;
+}
+
+.ContactHeader:hover{
+    transform:scale(0.95)
+}

@@ -1,0 +1,63 @@
+.TrackingImpact{
+    background: black;
+    color: white;
+    padding: 50px;
+    margin-left: 150px;
+}
+
+.TrackingTitle{
+    text-align: left;
+    padding:20px;
+    margin-top:50px;
+}
+
+.TrackingGrid{
+    display: grid;
+    grid-gap: 50px;
+    grid-template-columns: auto auto auto;
+    padding: 60px;
+    margin-left: -10px;
+}
+
+.GridItem{
+    border-radius: 6px;
+    height: 500px;
+    width: 400px;
+    text-align: left;
+    background: white;
+    color: black;
+
+}
+
+.Headline{
+    font-size: 15px;
+    padding: 10px;
+    font-weight:700;
+    margin-bottom:-20px;
+}
+
+.Label{
+    color: black;
+    font-weight:600;
+    margin-left: 10px;
+    margin-right:10px;
+    margin-bottom: -20px;
+    margin-top: 30px;
+}
+.Article{
+    font-weight:400;
+    margin-top:-20px;
+}
+
+
+.ArticleText{
+    color: black;
+    text-decoration:underline;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+
+.ArticleText p {
+    margin-bottom: -10px;
+}

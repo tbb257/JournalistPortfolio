@@ -1,0 +1,15 @@
+.navText{
+    color: white;
+    text-decoration: solid;
+    font-size:20px;
+    margin: 20px auto;
+    font-family: "Times New Roman";
+}
+
+
+.grid-container{
+    display:flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background: black
+}

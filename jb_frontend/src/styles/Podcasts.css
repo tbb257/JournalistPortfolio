@@ -1,0 +1,38 @@
+.Podcasts-Interviews{
+  color: white;
+  background-color:black;
+  padding: 20px;
+}
+
+.Heading{
+  text-align: center;
+  margin-top:50px;
+  text-align:center;
+  margin-left: 75px;
+}
+
+
+.PodcastTitle{
+  text-align: left;
+  font-size:25px;
+  margin-left: 320px;
+  margin-bottom:-20px;
+  margin-top: 50px;
+}
+
+.PodcastsGrid{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-left:200px;
+  margin-top:50px;
+}
+
+
+.PodcastEpisodes{
+  border-radius: 0px;
+  width: 350px;
+  height: 200px;
+  flex: 0 0 calc(25%);
+  margin:0px 10px 10px 10px;
+}

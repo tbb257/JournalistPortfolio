@@ -1,0 +1,57 @@
+.Stories{
+    color: white;
+    padding: 50px;
+    margin: 50px 10px 10px 10px
+
+}
+
+
+.StoryTitle{
+  text-align:center;
+  margin-left: 50px;
+}
+
+.StoryCategory{
+  text-align:left;
+  margin: 40px 10px -40px 325px;
+  text-decoration:underline;
+  font-size: 20px;
+}
+
+.story-grid{
+    /* display: grid;
+    grid-gap: 50px;
+    grid-template-columns: auto auto auto auto; */
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left:200px;
+    margin-top:50px;
+}
+
+.grid-item{
+    font-size: 20px;
+    text-align: center;
+    border-radius: 10px;
+    background: rgb(0 0 0 / 50%);
+    height: 180px;
+    width: 300px;
+
+    flex: 0 0 calc(20%);
+    margin:0px 10px 10px 10px;
+}
+
+.grid-item:hover {
+    transform: scale(0.96);
+}
+
+.headlines{
+    font: larger bold;
+    cursor: pointer;
+    margin: 35px 20px 10px 10px;
+}
+
+.url{
+    color: white
+}

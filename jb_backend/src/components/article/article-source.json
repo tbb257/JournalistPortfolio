@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_article_article_sources",
+  "info": {
+    "displayName": "ArticleSource",
+    "icon": "archive",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "ArticleHeadline": {
+      "type": "string",
+      "required": true
+    },
+    "ArticleURL": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

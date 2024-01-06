@@ -1,0 +1,43 @@
+.HomePage{
+    font-family: "Century Gothic";
+    padding:220px;
+    margin-left: 175px;
+    background-image:url("../images/Newspaper.jpg");
+    background-repeat: "no-repeat";
+    background-size: cover;
+}
+
+.TitleText{
+    font-size: 75px;
+    color: white;
+    margin-top: 100px;
+    margin-bottom: -60px;
+}
+
+.LineBreak{
+    margin-top: 50px;
+    color: white;
+}
+.HomePage-Text{
+    justify-content: center;
+    color:white;
+    font-size: 25px;
+}
+
+
+.EmailAddress{
+    justify-content: center;
+    color:white;
+    cursor: pointer;
+    font-size: 25px;
+}
+
+.parent {
+    text-align: center;
+    padding: 10px;
+  }
+
+.child {
+    display: inline-block;
+    vertical-align: middle;
+  }

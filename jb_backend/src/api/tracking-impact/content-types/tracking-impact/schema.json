@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "tracking_impacts",
+  "info": {
+    "singularName": "tracking-impact",
+    "pluralName": "tracking-impacts",
+    "displayName": "TrackingImpact",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "SingleLineSummary": {
+      "type": "string",
+      "required": true
+    },
+    "OriginalArticle": {
+      "type": "component",
+      "repeatable": true,
+      "component": "article.article-source"
+    },
+    "ImpactArticle": {
+      "type": "component",
+      "repeatable": true,
+      "component": "article.article-source"
+    }
+  }
+}
